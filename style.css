@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+.container {
+    display: flex;
+}
+
+.box {
+    max-height: fit-content;
+    max-width: fit-content;
+    background-color: rgb(17, 25, 32);
+    opacity: 0.7;
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    padding: 10px 0px 5px 20px;
+    border-bottom: 8px solid black;
+}
+
+.list {
+    padding: 5px 5px 15px 10px;
+    font-weight: bold;
+    font-size: larger;
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: rgb(83, 83, 83);
+}
+
+.detdiv_before {
+    display: none;
+}
+
+.detdiv {
+    position: sticky;
+    top: 10px;
+    height: auto;
+    max-height: 90vh;
+    width: 300px;
+    background-color: rgb(17, 25, 32);
+    flex: 1;
+    margin: 15px;
+    border-radius: 10px;
+    opacity: 0.9;
+    color: aliceblue;
+    padding: 10px;
+    font-size: larger;
+    overflow-y: auto;
+    transition: opacity 0.2s ease;
+    box-shadow: 0px 0px 10px rgb(255, 253, 253);
+
+}
+
+.imag {
+    max-width:100%;
+    margin-top:20px;
+    display:block;
+    margin-bottom: 5px;
+}
+.button{
+    margin-top: 10px;
+    font-weight: bolder;
+    height: 30px;
+    width: 80px;
+    border-radius: 0.5rem;
+    background-color: rgb(54, 54, 236);
+    color: white;
+}
+
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
